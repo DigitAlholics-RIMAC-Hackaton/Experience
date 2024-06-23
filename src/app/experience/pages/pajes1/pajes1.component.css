@@ -1,0 +1,52 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto 0;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option i {
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Example icons, you can use Font Awesome or any other icon library */
+.icon-example {
+  width: 24px;
+  height: 24px;
+  background-color: black; /* Replace with your icon style */
+  display: inline-block;
+}
